@@ -1,0 +1,26 @@
+/*fonts imported from https://fonts.google.com/*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+/*Overide default browser added styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Generic styling*/
+body {
+    display: flex;
+    font-family: 'lato', sans-serif;
+    flex-direction: column;
+    color: #2c2626;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    color: #2c2626;
+}
+
