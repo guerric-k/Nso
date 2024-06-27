@@ -96,9 +96,20 @@ main {
 }
 
 /* Footer*/
-footer {
-    background-color: lightblue;
-    height: 10%;
+#social-media {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+    color: #2c2626;
+    justify-content: space-evenly;
+    padding: 20 0;
+}
+/*targets copyright div*/
+.copyright {
+    text-align: right;
+    font-size: 75%;
+    color: #2c2626;
 }
 
 /*Media quer for tablets and larger (768px and up)*/
