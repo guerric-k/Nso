@@ -22,12 +22,17 @@ h1 {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2.1px;
-    color: #2c2626;;
+    color: #ffffff;
+    font-size: 40px;
 }
 
 /*Header*/
 header {
-    background-color: #F5F5F5;
+    background-image: url('../images/sky.jpg');
+    /* Additional styling to ensure the background image displays properly */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
     /*Padding prevents text sticking to the side of the screen and the z-index prevents overlap*/
     padding: 0 1rem;
     position: fixed;
@@ -42,12 +47,12 @@ header {
 
 header a {
     text-decoration: none;
-    color: #2c2626;
+    color: #ffffff;
 }
 
 #menu {
     text-decoration: none;
-    color: #2c2626;
+    color: #ffffff;
     list-style-type: none;
     font-size: 110%;
     letter-spacing: 3px;
@@ -58,15 +63,19 @@ header a {
 }
 
 .select {
-    border-bottom: 1px solid #2c2626;
+    border-bottom: 1px solid #ffffff;
 }
 
 /*Navbar styles with drop down menu*/
 nav {
     Position: absolute;
-    background-color: #F5F5F5;
+    background-image: url('../images/sky.jpg');
+    /* Additional styling to ensure the background image displays properly */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
     width: 100%;
-    box-shadow: 0 1px 1px #2c2626;
+    box-shadow: 0 1px 1px #ffffff;
     padding: 0 1rem;
     left: 0;
     display: none;
@@ -106,10 +115,14 @@ main {
 }
 
 #footer-content {
-    background-color:#F5F5F5;
+    background-image: url('../images/sky.jpg');
+    /* Additional styling to ensure the background image displays properly */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 #social-media i {
-    color: #2c2626;
+    color: #ffffff;
 }
 
 /*targets copyright div*/
@@ -117,7 +130,7 @@ main {
     text-align: right;
     font-size: 75%;
     font-family: 'lato', sans-serif;
-    color: #2c2626;
+    color: #ffffff;
 }
 
 /*Media quer for tablets and larger (768px and up)*/
@@ -159,6 +172,6 @@ main {
 /*Larger devices (laptops and desktops 992px +)*/
 @media screen and (min-width:992px) {
     #menu a:hover {
-        border: 1px solid #2c2626;
+        border: 1px solid #ffffff;
     }
 }
