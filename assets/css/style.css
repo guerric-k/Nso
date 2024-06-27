@@ -27,7 +27,7 @@ h1 {
 
 /*Header*/
 header {
-    background-color: white;
+    background-color: #F5F5F5;
     /*Padding prevents text sticking to the side of the screen and the z-index prevents overlap*/
     padding: 0 1rem;
     position: fixed;
@@ -64,7 +64,7 @@ header a {
 /*Navbar styles with drop down menu*/
 nav {
     Position: absolute;
-    background-color: white;
+    background-color: #F5F5F5;
     width: 100%;
     box-shadow: 0 1px 1px #2c2626;
     padding: 0 1rem;
@@ -89,7 +89,7 @@ nav {
 
 /*Main element*/
 main {
-    background-color: #5212;
+    background-color: rgba(243, 237, 235, 0.133);
     /*Standard property for main to take up max space and keep footer at the bottom of the page*/
     flex: 1 0 auto;
     margin-top: 49px;
@@ -105,6 +105,9 @@ main {
     padding: 20 0;
 }
 
+#footer-content {
+    background-color:#F5F5F5;
+}
 #social-media i {
     color: #2c2626;
 }
