@@ -46,9 +46,16 @@ header a {
     color: #2c2626;
     list-style-type: none;
     font-size: 110%;
-
+    letter-spacing: 3px;
 }
 
+#menu > li {
+  margin-bottom: 1em;  
+}
+
+.select {
+    border-bottom:1px solid #2c2626;
+}
 /*Main element*/
 main {
     background-color: #5212;
