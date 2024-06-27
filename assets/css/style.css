@@ -19,10 +19,10 @@ body {
 }
 
 h1 {
-font-family: 'oswald', sans-serif;   
-text-transform: uppercase;
-letter-spacing: 2.1px;
-color: rgb(17, 16, 16);
+    font-family: 'oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    color: rgb(17, 16, 16);
 }
 
 /*Header*/
@@ -53,12 +53,12 @@ header a {
     letter-spacing: 3px;
 }
 
-#menu > li {
-  margin-bottom: 1em;  
+#menu>li {
+    margin-bottom: 1em;
 }
 
 .select {
-    border-bottom:1px solid #2c2626;
+    border-bottom: 1px solid #2c2626;
 }
 
 /*Navbar styles with drop down menu*/
@@ -66,7 +66,7 @@ nav {
     Position: absolute;
     background-color: white;
     width: 100%;
-    box-shadow:0 1px 1px #2c2626;
+    box-shadow: 0 1px 1px #2c2626;
     padding: 0 1rem;
     left: 0;
     display: none;
@@ -74,7 +74,7 @@ nav {
 }
 
 /*Activate nav bar drop down*/
-#nav-bar:checked~nav{
+#nav-bar:checked~nav {
     display: block;
 }
 
@@ -86,6 +86,7 @@ nav {
 .nav-bar-label {
     font-size: 1.9rem;
 }
+
 /*Main element*/
 main {
     background-color: #5212;
@@ -110,26 +111,35 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        
+
     }
 
     #menu {
         display: flex;
     }
 
-#menu li {
-    margin: 10px;
+    #menu li {
+        margin: 10px;
+    }
+
+    .nav-bar-label {
+        display: none;
+    }
+
+    #banner {
+        font-size: 300%;
+        line-height:  80px;
+    }
+
+    /*increase visibility of main element as header increases with change in screen size*/
+    main {
+        margin-top: 78px;
+    }
 }
 
-.nav-bar-label {
-    display: none;
-}
-
-#banner {
-    font-size: 300%;
-    line: height 80px;
-}
-/*increase visibility of main element as header increases with change in screen size*/
-main {
-    margin-top: 72px;
+/*Larger devices (laptops and desktops 992px +)*/
+@media screen and (min-width:992px) {
+    #menu a:hover {
+        border: 1px solid #2c2626;
+    }
 }
