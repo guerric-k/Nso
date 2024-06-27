@@ -14,7 +14,7 @@ body {
     display: flex;
     font-family: 'lato', sans-serif;
     flex-direction: column;
-    color: rgb(17, 16, 16);
+    color: #ffffff;
 
 }
 
@@ -38,7 +38,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 1px 1px #2c2626;
+    box-shadow: 0 1px 1px #ffffff;
     align-items: baseline;
     display: flex;
     justify-content: space-between;
@@ -101,7 +101,11 @@ main {
     background-color: rgba(243, 237, 235, 0.133);
     /*Standard property for main to take up max space and keep footer at the bottom of the page*/
     flex: 1 0 auto;
-    margin-top: 49px;
+    margin-top: 60px;
+}
+
+#main-content {
+    color: #000000;
 }
 
 /* Footer*/
