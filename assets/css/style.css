@@ -28,13 +28,17 @@ color: rgb(17, 16, 16);
 /*Header*/
 header {
     background-color: white;
-    /*Padding:0 1.1rem; prevents text sticking to the side of the screen and the z-index prevents overlap*/
+    /*Padding prevents text sticking to the side of the screen and the z-index prevents overlap*/
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 1px 1px #2c2626;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 header a {
     text-decoration: none;
@@ -66,12 +70,28 @@ nav {
     padding: 0 1rem;
     left: 0;
     display: none;
+    top: 100%;
+}
+
+/*Activate nav bar drop down*/
+#nav-bar:checked~nav{
+    display: block;
+}
+
+/*Hides checkbox*/
+#nav-bar {
+    display: none;
+}
+
+.nav-bar-label {
+    font-size: 1.9rem;
 }
 /*Main element*/
 main {
     background-color: #5212;
     /*Standard property for main to take up max space and keep footer at the bottom of the page*/
     flex: 1 0 auto;
+    margin-top: 49px;
 }
 
 /* Footer*/
