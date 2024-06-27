@@ -22,7 +22,7 @@ h1 {
     font-family: 'oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2.1px;
-    color: rgb(17, 16, 16);
+    color: #2c2626;;
 }
 
 /*Header*/
@@ -101,14 +101,19 @@ main {
     list-style-type: none;
     display: flex;
     font-size: 25px;
-    color: #2c2626;
     justify-content: space-evenly;
     padding: 20 0;
 }
+
+#social-media i {
+    color: #2c2626;
+}
+
 /*targets copyright div*/
-.copyright {
+.copyright p {
     text-align: right;
     font-size: 75%;
+    font-family: 'lato', sans-serif;
     color: #2c2626;
 }
 
