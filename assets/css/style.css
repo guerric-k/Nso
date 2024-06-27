@@ -10,17 +10,54 @@
 
 /*Generic styling*/
 body {
+    min-height: 100vh;
     display: flex;
     font-family: 'lato', sans-serif;
     flex-direction: column;
-    color: #2c2626;
-    min-height: 100vh;
+    color: rgb(17, 16, 16);
+
 }
 
-h1, h2, h3 {
-    font-family: 'oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2.1px;
+h1 {
+font-family: 'oswald', sans-serif;   
+text-transform: uppercase;
+letter-spacing: 2.1px;
+color: rgb(17, 16, 16);
+}
+
+/*Header*/
+header {
+    background-color: #5ec575;
+    /*Padding:0 1.1rem; prevents text sticking to the side of the screen and the z-index prevents overlap*/
+    padding: 0 1.1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 1px 1px #2c2626;
+}
+
+header a {
+    text-decoration: none;
     color: #2c2626;
 }
 
+#menu {
+    text-decoration: none;
+    color: #2c2626;
+    list-style-type: none;
+    font-size: 110%;
+
+}
+
+/*Main element*/
+main {
+    background-color: #5212;
+    /*Standard property for main to take up max space and keep footer at the bottom of the page*/
+    flex: 1 0 auto;
+}
+
+/* Footer*/
+footer {
+    background-color: lightblue;
+    height: 10%;
+}
