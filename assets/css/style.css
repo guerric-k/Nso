@@ -30,8 +30,8 @@ h1 {
 header {
     background-image: url('../images/sky.jpg');
     /* Additional styling to ensure the background image displays properly */
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     /*Padding prevents text sticking to the side of the screen and the z-index prevents overlap*/
     padding: 0 1rem;
@@ -71,8 +71,8 @@ nav {
     Position: absolute;
     background-image: url('../images/sky.jpg');
     /* Additional styling to ensure the background image displays properly */
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     box-shadow: 0 1px 1px #ffffff;
@@ -98,12 +98,23 @@ nav {
 
 /*Main element*/
 main {
-    background-color: rgba(243, 237, 235, 0.133);
     /*Standard property for main to take up max space and keep footer at the bottom of the page*/
     flex: 1 0 auto;
     margin-top: 60px;
 }
 
+/*Hero Image*/
+#hero {
+    width: 100%;
+    height: 700px;
+    background: url('../images/IMG-20240626-WA0065.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/*main font color*/
 #main-content {
     color: #000000;
 }
@@ -121,10 +132,12 @@ main {
 #footer-content {
     background-image: url('../images/sky.jpg');
     /* Additional styling to ensure the background image displays properly */
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+
 }
+
 #social-media i {
     color: #ffffff;
 }
@@ -164,7 +177,7 @@ main {
 
     #banner {
         font-size: 300%;
-        line-height:  80px;
+        line-height: 80px;
     }
 
     /*increase visibility of main element as header increases with change in screen size*/
