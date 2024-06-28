@@ -104,10 +104,11 @@ main {
 }
 
 /* Targets alignment in main text*/
-#main-text{
+#main-text {
     text-align: justify;
-    margin: 7px 15px 15px 7px;
+    margin: 7px 10px 10px 7px;
 }
+
 /*Hero Image*/
 #hero {
     width: 100%;
@@ -121,8 +122,12 @@ main {
 
 /*Target main images*/
 .image-o {
-max-width: 300px;
-max-height: 350px;
+    max-width: 200px;
+    max-height: 250px;
+    float: left;
+    padding: 5px;
+    border: 1px;
+    border-radius: 30%;
 }
 
 h2 {
