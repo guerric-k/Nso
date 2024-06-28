@@ -206,4 +206,14 @@ h2 {
     #menu a:hover {
         border: 1px solid #ffffff;
     }
+
+    /*Target main images*/
+.image-o {
+    max-width: 200px;
+    max-height: 170px;
+    float: left;
+    padding: 5px;
+    border: 1px;
+    border-radius: 50%;
+}
 }
