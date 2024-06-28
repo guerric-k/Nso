@@ -14,7 +14,7 @@ body {
     display: flex;
     font-family: 'lato', sans-serif;
     flex-direction: column;
-    color: #ffffff;
+    color: #000000;
 
 }
 
@@ -103,6 +103,11 @@ main {
     margin-top: 60px;
 }
 
+/* Targets alignment in main text*/
+#main-text{
+    text-align: justify;
+    margin: 7px 15px 15px 7px;
+}
 /*Hero Image*/
 #hero {
     width: 100%;
@@ -114,9 +119,14 @@ main {
 
 }
 
-/*main font color*/
-#main-content {
-    color: #000000;
+/*Target main images*/
+.image-o {
+max-width: 300px;
+max-height: 350px;
+}
+
+h2 {
+    font-size: 1em;
 }
 
 /* Footer*/
