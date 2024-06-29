@@ -94,6 +94,7 @@ nav {
 
 .nav-bar-label {
     font-size: 1.9rem;
+    color: #ffffff;
 }
 
 /*Main element*/
@@ -101,6 +102,7 @@ main {
     /*Standard property for main to take up max space and keep footer at the bottom of the page*/
     flex: 1 0 auto;
     margin-top: 60px;
+   
 }
 
 /* Targets alignment in main text*/
@@ -185,7 +187,6 @@ h2 {
     object-fit: cover;
     vertical-align: bottom;
 }
-
 
 /*Media quer for tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
