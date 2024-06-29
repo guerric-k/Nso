@@ -44,34 +44,38 @@
         <form>
             <div class="form-contain">
                 <h2 class="formh2">Tourist Review Form for Nso' Tour</h2>
-                
-                <!--Inputs fields for names-->  
+
+                <!--Inputs fields for names-->
                 <div class="form-section">
                     <label for="surname">Surname <i class="fa-regular fa-id-badge"></i>:</label>
-                    <input type="text" id="surname" name="surname" placeholder="Input your Surname" required >
+                    <input type="text" id="surname" name="surname" placeholder="Input your Surname" required>
                     <br>
                     <label for="name">First name <i class="fa-regular fa-id-badge"></i>:</label>
-                    <input type="text" id="firstname" name="firstname" placeholder="Input your First Name" required >
+                    <input type="text" id="firstname" name="firstname" placeholder="Input your First Name" required>
                 </div>
                 <br>
 
-                <!--Input field for email-->  
+                <!--Input field for email-->
                 <div class="form-section">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <br>
-            <!--checkboxes for sex-->  
+                <!--checkboxes for sex-->
                 <div class="form-section-checkboxs">
                     <label>Sex <i class="fa-solid fa-person-half-dress"></i>:</label>
-                    <label><input type="checkbox" name="sex" value="Male"> Male <i class="fa-solid fa-person"></i></label>
-                    <label><input type="checkbox" name="sex" value="Female"> Female <i class="fa-solid fa-person-dress"></i></label>
-                    <label><input type="checkbox" name="sex" value="Other"> Other <i class="fa-regular fa-user"></i></label>
+                    <label><input type="checkbox" name="sex" value="Male"> Male <i
+                            class="fa-solid fa-person"></i></label>
+                    <label><input type="checkbox" name="sex" value="Female"> Female <i
+                            class="fa-solid fa-person-dress"></i></label>
+                    <label><input type="checkbox" name="sex" value="Other"> Other <i
+                            class="fa-regular fa-user"></i></label>
                 </div>
-            <br>
+                <br>
                 <!--Select options for age ranges-->
                 <div class="form-section">
-                    <label for="age">Age  <i class="fa-solid fa-child"></i> <i class="fa-solid fa-person-cane"></i>:</label>
+                    <label for="age">Age <i class="fa-solid fa-child"></i> <i
+                            class="fa-solid fa-person-cane"></i>:</label>
                     <select id="age" name="age">
                         <option value="- 18"> - 18</option>
                         <option value="18-24">18-24</option>
@@ -85,10 +89,21 @@
                 <br>
                 <!--Section for text area, tourist input-->
                 <div class="form-section">
-                    <label for="review"><i class="fa-solid fa-feather"></i> <i class="fa-regular fa-comment-dots"></i>:</label>
-                    <textarea id="review" name="review" maxlength="300" rows="7" cols="20" placeholder="Write Your Thoughts"></textarea>
+                    <label for="review"><i class="fa-solid fa-feather"></i> <i
+                            class="fa-regular fa-comment-dots"></i>:</label>
+                    <textarea id="review" name="review" maxlength="300" rows="7" cols="20"
+                        placeholder="Write Your Thoughts"></textarea>
                 </div>
-
+                <!--Section for form buttons-->
+                <div class="formbuttons">
+                    <div class="resetbutton">
+                        <button type="reset">Reset</button>
+                    </div>
+                    <div class="sendbutton">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
             </div>
         </form>
     </main>
