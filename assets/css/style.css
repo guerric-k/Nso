@@ -102,7 +102,7 @@ main {
     /*Standard property for main to take up max space and keep footer at the bottom of the page*/
     flex: 1 0 auto;
     margin-top: 60px;
-   
+
 }
 
 /* Targets alignment in main text*/
@@ -196,11 +196,13 @@ h2 {
     border-radius: 9px;
     text-align: center;
 }
+
 .h2thanks {
     color: #131212;
     font-size: 23px;
     text-transform: uppercase;
 }
+
 .pthanks {
     color: #3d3a3a;
     font-size: 18px;
@@ -216,6 +218,16 @@ h2 {
     border-radius: 10%;
 }
 
+.formh2 {
+    text-transform: uppercase;
+}
+
+/*Targets formbutoons */
+.formbuttons {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
 
 /*Media quer for tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
