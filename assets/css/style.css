@@ -188,6 +188,25 @@ h2 {
     vertical-align: bottom;
 }
 
+/* Styles for thank you page*/
+/* styles.css */
+.thanks {
+    background-color: #f1e9e9;
+    padding: 21px;
+    border-radius: 9px;
+    text-align: center;
+}
+.h2thanks {
+    color: #333;
+    font-size: 23px;
+}
+.pthanks {
+    color: #666;
+    font-size: 15.8px;
+}
+
+
+
 /*Media quer for tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
