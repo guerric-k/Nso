@@ -191,21 +191,29 @@ h2 {
 /* Styles for thank you page*/
 /* styles.css */
 .thanks {
-    background-color: #f1e9e9;
+    background-color: #faf8f8;
     padding: 21px;
     border-radius: 9px;
     text-align: center;
 }
 .h2thanks {
-    color: #333;
+    color: #131212;
     font-size: 23px;
+    text-transform: uppercase;
 }
 .pthanks {
-    color: #666;
-    font-size: 15.8px;
+    color: #3d3a3a;
+    font-size: 18px;
 }
 
-
+/* General form styling*/
+.form-contain {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #F0F8FF;
+    border-radius: 10%;
+    background-color: #F0F8FF;
 
 /*Media quer for tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
