@@ -166,10 +166,16 @@ h2 {
 }
 
 /*Gallery styles*/
+/*Target unordered list and make images  not rigid*/
 #ulgallery {
     display: flex;
     flex-wrap: wrap;
   }
+ 
+  /*Targets image container and makes automaitc change in image size with change in screen size*/
+  .ligallery {
+    height: 35vh;
+    flex-grow: 1;
  
   
 
