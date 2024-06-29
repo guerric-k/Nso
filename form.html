@@ -41,14 +41,16 @@
 
     <!--Form-->
     <main>
-        <form>
+        <form action="/thanks.html" method="get" onsubmit="return validateForm()">
             <div class="form-contain">
+                <br>
                 <h2 class="formh2">Tourist Review Form for Nso' Tour</h2>
-
+                <br>
                 <!--Inputs fields for names-->
                 <div class="form-section">
                     <label for="surname">Surname <i class="fa-regular fa-id-badge"></i>:</label>
                     <input type="text" id="surname" name="surname" placeholder="Input your Surname" required>
+                    <br>
                     <br>
                     <label for="name">First name <i class="fa-regular fa-id-badge"></i>:</label>
                     <input type="text" id="firstname" name="firstname" placeholder="Input your First Name" required>
@@ -57,8 +59,8 @@
 
                 <!--Input field for email-->
                 <div class="form-section">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email <i class="fa-solid fa-envelope"></i>:</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
                 </div>
                 <br>
                 <!--checkboxes for sex-->
