@@ -198,7 +198,7 @@ h2 {
 /* Styles for thank you page*/
 /* styles.css */
 .thanks {
-    background-color: #faf8f8;
+    background-color: none;
     padding: 21px;
     border-radius: 9px;
     text-align: center;
@@ -208,10 +208,11 @@ h2 {
     color: #000000;
     font-size: 23px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .pthanks {
-    color: #3d3a3a;
+    color: #000000;
     font-size: 18px;
 }
 
@@ -219,14 +220,15 @@ h2 {
 .form-contain {
     max-width: 600px;
     padding: 22px;
-    border: 1px solid #F0F8FF;
+    border: 1px solid #000000;
     margin: 120px auto;
-    background-color: #F0F8FF;
+    background-color: none;
     border-radius: 10%;
 }
 
 .formh2 {
     text-transform: uppercase;
+    text-align: center;
 }
 
 /*Targets formbutoons */
