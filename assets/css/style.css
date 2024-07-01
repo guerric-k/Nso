@@ -288,3 +288,25 @@ h2 {
         border-radius: 50%;
     }
 }
+
+/*Larger devices (laptops and desktops 992px +)*/
+@media screen and (min-width:992px) {
+/*Targets gallery ul*/
+    #unordered-l-gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }   
+/*Targets individual img and ensures fits in img list*/
+    .pic-gallery {
+    max-height: 100%;
+    max-width: 95%;
+}
+
+.l-gallery {
+    height: 39vh;
+    flex-grow: 1;
+    list-style-type: none;
+}
+
+
+}
