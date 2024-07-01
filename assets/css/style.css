@@ -204,14 +204,14 @@ h2 {
     text-align: center;
 }
 
-.h2thanks {
+.heading-thanks {
     color: #000000;
-    font-size: 23px;
     text-transform: uppercase;
     text-align: center;
+    font-weight: bold;
 }
 
-.pthanks {
+.paragraph-thanks {
     color: #000000;
     font-size: 18px;
 }
@@ -226,13 +226,13 @@ h2 {
     border-radius: 10%;
 }
 
-.formh2 {
+.form-heading {
     text-transform: uppercase;
     text-align: center;
 }
 
 /*Targets formbutoons */
-.formbuttons {
+.form-buttons {
     display: flex;
     margin: 10px;
     gap: 10px;
@@ -293,22 +293,22 @@ h2 {
 
 /*Larger devices (laptops and desktops 992px +)*/
 @media screen and (min-width:992px) {
-/*Targets gallery ul*/
+
+    /*Targets gallery ul*/
     #unordered-l-gallery {
         display: flex;
         flex-wrap: wrap;
-    }   
-/*Targets individual img and ensures fits in img list*/
+    }
+
+    /*Targets individual img and ensures fits in img list*/
     .pic-gallery {
-    max-height: 100%;
-    max-width: 95%;
-}
+        max-height: 100%;
+        max-width: 95%;
+    }
 
-.l-gallery {
-    height: 39vh;
-    flex-grow: 1;
-    list-style-type: none;
-}
-
-
+    .l-gallery {
+        height: 39vh;
+        flex-grow: 1;
+        list-style-type: none;
+    }
 }
