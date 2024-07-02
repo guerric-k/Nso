@@ -121,6 +121,15 @@ main {
     flex-direction: column;
     gap: 20px;
 
+     /* Target each image block: summary vertically, center items horizontally and text inside the block */
+     .image-block {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+
 /* Targets alignment in main text*/
 .about-history {
     margin: 7px 10px 10px 7px;
