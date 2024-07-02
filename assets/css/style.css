@@ -108,8 +108,18 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 
-
 }
+
+/* Base styles for icons*/
+#icons {
+    font-family: 'lato', sans-serif;
+}
+
+/* .icon-container flexbox structure */
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
 /* Targets alignment in main text*/
 .about-history {
