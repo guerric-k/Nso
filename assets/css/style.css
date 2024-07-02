@@ -121,21 +121,31 @@ main {
     flex-direction: column;
     gap: 20px;
 }
-     /* Target each image block: summary vertically, center items horizontally and text inside the block */
 
-     .image-block { 
+/* Target each image block: summary vertically, center items horizontally and text inside the block */
 
-        display: flex;
-        flex-direction: column; 
-        align-items: center; 
-        text-align: center; 
-    }
+.image-block {
 
-     /* scales images to fit container and maintain the aspect ratio */
-     .image-block img {
-        max-width: 100%;
-        height: auto; 
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+ /* Add space above the summary notes */
+ .image-block p {
+    margin-top: 10px; 
+}
+
+/* scales images to fit container and maintain the aspect ratio */
+.image-block img {
+    max-width: 50%;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
 /* Targets alignment in main text*/
 .about-history {
     margin: 7px 10px 10px 7px;
@@ -337,5 +347,18 @@ h2 {
         height: 39vh;
         flex-grow: 1;
         list-style-type: none;
+    }
+}
+/* Media query for screens wider than 992px */
+@media (min-width: 992px) {
+    .icon-container {
+      /* Place items side by side and evenly space them */  
+        flex-direction: row; 
+        justify-content: space-around;
+    }
+
+    /* Allow the blocks to grow and fill the space equally */
+    .image-block {
+        flex: 1; 
     }
 }
