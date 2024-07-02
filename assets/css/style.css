@@ -132,9 +132,9 @@ main {
     text-align: center;
 }
 
- /* Add space above the summary notes */
- .image-block p {
-    margin-top: 10px; 
+/* Add space above the summary notes */
+.image-block p {
+    margin-top: 10px;
 }
 
 /* scales images to fit container and maintain the aspect ratio */
@@ -151,7 +151,7 @@ main {
     margin: 7px 10px 10px 7px;
     text-align: justify;
     color: #000000;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 
@@ -201,6 +201,11 @@ h2 {
 
 #social-media i {
     color: #000000;
+}
+/*Targets article*/
+article {
+    margin-top: 5px;
+    font-size: small;
 }
 
 /*targets copyright div*/
@@ -350,16 +355,17 @@ h2 {
         list-style-type: none;
     }
 }
+
 /* Media query for screens wider than 992px */
 @media (min-width: 992px) {
     .icon-container {
-      /* Place items side by side and evenly space them */  
-        flex-direction: row; 
+        /* Place items side by side and evenly space them */
+        flex-direction: row;
         justify-content: space-around;
     }
 
     /* Allow the blocks to grow and fill the space equally */
     .image-block {
-        flex: 1; 
+        flex: 1;
     }
 }
