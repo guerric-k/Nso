@@ -112,10 +112,12 @@ main {
 }
 
 /* Targets alignment in main text*/
-#main-text {
-    text-align: justify;
+.about-history {
     margin: 7px 10px 10px 7px;
+    text-align: justify;
+    color: #000000;
 }
+
 
 /*Hero Image*/
 #hero {
