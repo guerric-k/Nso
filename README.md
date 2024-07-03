@@ -11,4 +11,13 @@ There are social media and information links on all pages of this project where 
 
 [View Nso live project here](https://guerric-k.github.io/Nso/)
 - - -
-  
+## Table of Contents
+### [User Experience (UX)](#user-experience-ux-1)
+* [User Stories](#user-stories)
+### [Design](#design-1)
+### [Features](#features)
+* [Existing Features](#existing-features)
+### [Features Left to Implement](#features-left-to-implement-1)
+### [Features](#features)
+* [Existing Features](#existing-features)
+### [Features Left to Implement](#features-left-to-implement-1)
