@@ -48,7 +48,7 @@ The social media links in the footer provide contacts for visitors to use.
 ## Design
 
  * Colour Scheme
-    * Primary color used on the website: ![Color Scheme](/assets/images/color-used.JPG.png)
+    * Primary color used on the website: ![Color Scheme](/assets/images/color-used.JPG)
 
  * Typography
     * Oswald and Lato font are the main fonts used throughout the site with sans-serif as their fallback font in case Lato or Oswald does not import any reasson.
