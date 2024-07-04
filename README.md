@@ -54,3 +54,20 @@ The social media links in the footer provide contacts for visitors to use.
     * Oswald and Lato font are the main fonts used throughout the site with sans-serif as their fallback font in case Lato or Oswald does not import any reasson.
 
 ---
+## Features
+
+* The website serves and targets individuals with an interest in African cultures.
+* Visitors can surf the Home page for more information about tribal history, and access the the gallery for amazing photos .
+* The website has been properly tested accross all device sizes and is fully responsive.
+
+### Existing Features
+
+* Nav Bar
+    * There is a nav bar in every page of the website including the Thank you page.
+    * Holds links to the Home, Logo, Gallery, Review page's current position spotted through the hover effect of the mouse.
+    * The nav bar's design is consistent throughout the website.
+    * With a simple click or touch for smaller screens, the user can easily navigate accross all pages.
+
+    ![Navigation](/assets/images/nav-bar.JPG)
+
+    
