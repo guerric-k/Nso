@@ -149,9 +149,11 @@ The social media links in the footer provide contacts for visitors to use.
     * Import main font the website.
 * [Am I Responsive](https://ui.dev/amiresponsive)
     * Mockup picture for the README file.
-* [FAVICON](https://favicon.io/)
+* [Favicon](https://favicon.io/)
    * site for designing the favicon.
-* [BACKGROUND-IMAGE](https://www.freepik.com/photos/paper-texture)
+* [Background-images](https://www.freepik.com/photos/paper-texture)
    * Site used in generating background images
+[Font-awesome](https://fontawesome.com/search?q=young&o=r&m=free)
+   * Site used in generating icons.
 ---
 
