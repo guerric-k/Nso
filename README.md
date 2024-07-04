@@ -130,4 +130,28 @@ The social media links in the footer provide contacts for visitors to use.
 * Additional information could be added to the home and restyled.
 * The site in future could incorporate guides and offer the opportunity for tourists to star them in the form section which could then be included in their ranking in order to promote better tour experience and assure safety.
 ---
+## Technologies Used
+
+ * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+ * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+---
+
+## Frameworks, Libraries & Programs Used
+
+ * [Gitpod](https://www.gitpod.io/)
+    * To write the code.
+ * [Git](https://git-scm.com/)
+    * for vesion control.
+ * [Github](https://github.com/)
+    * Deployment of the website and storing the files online.
+ * [Google Fonts](https://fonts.google.com/)
+    * Import main font the website.
+* [Am I Responsive](https://ui.dev/amiresponsive)
+    * Mockup picture for the README file.
+* [FAVICON](https://favicon.io/)
+   * site for designing the favicon.
+* [BACKGROUND-IMAGE](https://www.freepik.com/photos/paper-texture)
+   * Site used in generating background images
+---
 
