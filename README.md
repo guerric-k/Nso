@@ -113,3 +113,11 @@ The social media links in the footer provide contacts for visitors to use.
 ![Thanks for your Review](/assets/images/thank-you.JPG)
 
 ---
+
+## Future feature implementations
+
+* More images will be available in the gallery section of the site.
+* Additional information could be added to the home and restyled.
+* The site in future could incorporate guides and offer the opportunity for tourists to star them in the form section which could then be included in their ranking in order to promote better tour experience and assure safety.
+---
+
