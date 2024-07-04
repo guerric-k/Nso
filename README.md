@@ -62,7 +62,7 @@ The social media links in the footer provide contacts for visitors to use.
 
 ### Existing Features
 
-* Nav Bar
+* The Navigation Bar
     * There is a nav bar in every page of the website including the Thank you page.
     * Holds links to the Home, Logo, Gallery, Review page's current position spotted through the hover effect of the mouse.
     * The nav bar's design is consistent throughout the website.
@@ -70,4 +70,11 @@ The social media links in the footer provide contacts for visitors to use.
 
     ![Navigation](/assets/images/nav-bar.JPG)
 
-    
+ * The Main heading
+    * The main heading is a combination of an antique page as bacgroung and the word NSO which is the name of the tribe and the people and culture.
+    * The Main heading serves as the logo and is same accross all pages and some pages have an secondary heading:
+         * The Review page has a secondary heading of  'TOURIST REVIEW FORM FOR NSO' TOUR'
+        * The Thank you page equally has 'THANK YOU FOR YOUR REVIEW!'.
+
+![Main heading](/assets/images/main-heading.JPG)   
+
