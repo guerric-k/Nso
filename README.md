@@ -93,3 +93,23 @@ The social media links in the footer provide contacts for visitors to use.
     * Hold copyright information about the author. 
 
 ![Footer](/assets/images/footer.JPG)
+
+* Gallery 
+    * The gallery provides evidence of cultural displays and heritage sites worth visiting.
+    * The gallery helps the visitor decide what they would like to see and visit upon arrival in Nso'.
+
+![Gallery](/assets/images/gallery.JPG)
+
+* The Review page
+    * This page offers visitors the opportunity to express their views about where they visited in Nso'.
+    * The the form equally allows for collection of data by the Lamnso' Literacy center which they would use to better plan and organize tours in the land.
+    * The form is open for continues improvement with Tourist demand changes. 
+
+![Review Form](/assets/images/review.JPG)
+
+* The thank you page
+    * Form received
+
+![Thanks for your Review](/assets/images/thank-you.JPG)
+
+---
