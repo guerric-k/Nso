@@ -72,9 +72,24 @@ The social media links in the footer provide contacts for visitors to use.
 
  * The Main heading
     * The main heading is a combination of an antique page as bacgroung and the word NSO which is the name of the tribe and the people and culture.
-    * The Main heading serves as the logo and is same accross all pages and some pages have an secondary heading:
+    * The Main heading serves as the logo and is same accross all pages and some pages have a secondary heading:
          * The Review page has a secondary heading of  'TOURIST REVIEW FORM FOR NSO' TOUR'
         * The Thank you page equally has 'THANK YOU FOR YOUR REVIEW!'.
 
 ![Main heading](/assets/images/main-heading.JPG)   
 
+* Home 
+    * The Home holds a hero image and two historical divisions: 
+    * One talks about a brief history and some cultural aspects of Nso' with associated links for further reading.
+    * The other about some of the tribe's icons.
+
+![Hero image Nwerong sanctum](/assets/images/hero.JPG)
+![About Nos'](/assets/images/history.JPG)
+![Nso Icons](/assets/images/icons.JPG)
+
+* Footer
+    * Hold's links for Nso' social media pages. All links open in a new tab to allow for better user experience.
+    * provides a means of contact to guides for visitors.
+    * Hold copyright information about the author. 
+
+![Footer](/assets/images/footer.JPG)
