@@ -1,4 +1,4 @@
-/*fonts imported from https://fonts.google.com/*/
+/*fonts imported from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 /*Overide default browser added styles*/
@@ -187,7 +187,7 @@ h2 {
     display: flex;
     font-size: 25px;
     justify-content: space-evenly;
-    padding: 20 0;
+    padding: 20px 0;
 }
 
 #footer-content {
@@ -202,6 +202,7 @@ h2 {
 #social-media i {
     color: #000000;
 }
+
 /*Targets article*/
 article {
     margin-top: 5px;
@@ -241,7 +242,6 @@ article {
 /* Styles for thank you page*/
 /* styles.css */
 .thanks {
-    background-color: none;
     padding: 21px;
     border-radius: 9px;
     text-align: center;
@@ -265,7 +265,6 @@ article {
     padding: 22px;
     border: 1px solid #000000;
     margin: 120px auto;
-    background-color: none;
     border-radius: 10%;
 }
 

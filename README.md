@@ -156,4 +156,42 @@ The social media links in the footer provide contacts for visitors to use.
 [Font-awesome](https://fontawesome.com/search?q=young&o=r&m=free)
    * Site used in generating icons.
 ---
+## Testing
 
+W3C Markup Validator and W3C CSS Validator services were the main validation tools for all html and CSS files in this project. Another tool used wass manually checking all lines of code and eliminating visible mistakes and then running it throuh the following validation services
+
+ * [W3C Markup Validtor](https://validator.w3.org/)
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+### Validation results
+
+<details>
+<summary>index.html
+</summary>
+
+![Home Page validation result](/assets/images/index-validation.JPG)
+</details>
+<details>
+<summary>gallery.html
+</summary>
+
+![Gallery validation result](/assets/images/gallery-validation.JPG)
+</details>
+<details>
+<summary>review.html
+</summary>
+
+![Review page validation result](/assets/images/form-validation.JPG)
+</details>
+<details>
+<summary>thanks.htmml
+</summary>
+
+![Thanks for your review validation result](/assets/images/thanks-validation.JPG)
+</details>
+<details>
+<summary>style.css
+</summary>
+
+![CSS validation result](/assets/images/css-validation.JPG)
+</details>
