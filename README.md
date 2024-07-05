@@ -195,3 +195,12 @@ W3C Markup Validator and W3C CSS Validator services were the main validation too
 
 ![CSS validation result](/assets/images/css-validation.JPG)
 </details>
+
+### Manual Testing
+
+* Compatibility tests were carried out on Google Chrome and Microsoft Edge browsers.
+* The website was tested on a Samsung Galaxy A75 smart phone , viewed on a 32" desktop computer and laptop.
+* Links were properly tested to make sure they opened on click and on another page.
+* Friends were used as experimental users and reviews used to amend the necessary lines of code
+* Google Chrome developer tools were used to test the sites responsiveness to different screen sizes and simulate changes to code.
+
