@@ -374,3 +374,13 @@ article {
         flex: 1;
     }
 }
+
+/*Larger devices (laptops and desktops 325px +)*/
+@media screen and (min-width:325px) {
+
+    .l-gallery {
+        height: 10vh;
+        flex-grow: 1;
+        list-style-type: none;
+    }
+}

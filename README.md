@@ -184,7 +184,7 @@ W3C Markup Validator and W3C CSS Validator services were the main validation too
 ![Review page validation result](/assets/images/form-validation.JPG)
 </details>
 <details>
-<summary>thanks.htmml
+<summary>thanks.html
 </summary>
 
 ![Thanks for your review validation result](/assets/images/thanks-validation.JPG)
