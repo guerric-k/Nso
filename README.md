@@ -23,7 +23,7 @@ There are social media and information links on all pages of this project where 
 ### [Testing](#testing-1)
 * [Validation Results](#validation-results)
 * [Manual Testing](#manual-testing)
-* [Lighthouse Report](#lighthouse-report)
+* [Page Speed Analysis](#page-speed-report)
 ### [Deployment and local development](#deployment-and-local-development-1)
 * [GitHub Pages](#github-pages)
 * [Forking the GitHub Repository](#forking-the-github-repository)
@@ -204,3 +204,71 @@ W3C Markup Validator and W3C CSS Validator services were the main validation too
 * Friends were used as experimental users and reviews used to amend the necessary lines of code
 * Google Chrome developer tools were used to test the sites responsiveness to different screen sizes and simulate changes to code.
 
+### Page Speed Analysis
+
+#### Mobile analysis
+<details>
+<summary>Home Page
+</summary>
+
+![Home Page page-speed-report](/assets/images/home-mobile-report.JPG)
+</details>
+<details>
+<summary>Gallery
+</summary>
+
+![Gallery page-speed-report](/assets/images/gallery-mobile-report.JPG)
+</details>
+<details>
+<summary>Review
+</summary>
+
+![Review Page page-speed-report](/assets/images/review-mobile-report.JPG)
+</details>
+<details>
+<summary>Thanks for your review
+</summary>
+
+![Thanks for your review  page-speed-report](/assets/images/thanks-mobile-report.JPG)
+</details>
+
+<details>
+<summary>Full mobile report
+</summary>
+
+![Mobile site speed-report](/assets/images/mobile-report.JPG)
+</details>
+
+#### Desktop analysis
+<details>
+<summary>Home Page
+</summary>
+
+![Home Page page-speed-report](/assets/images/home-desktop-report.JPG)
+</details>
+<details>
+<summary>Gallery
+</summary>
+
+![Gallery page-speed-report](/assets/images/gallery-desktop-report.JPG)
+</details>
+<details>
+<summary>Review
+</summary>
+
+![Review Page page-speed-report](/assets/images/form-desktop-report.JPG)
+</details>
+<details>
+<summary>Thanks for your review
+</summary>
+
+![Thanks for your review page-speed-report](/assets/images/thanks-desktop-report.JPG)
+</details>
+
+<details>
+<summary>Full desktop report
+</summary>
+
+![Desktop site speed-report](/assets/images/desktop-report.JPG)
+</details>
+---
