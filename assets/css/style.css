@@ -375,12 +375,28 @@ article {
     }
 }
 
+/*Targets screens above 325px*/
 /*Larger devices (laptops and desktops 325px +)*/
 @media screen and (min-width:325px) {
 
     .l-gallery {
         height: 10vh;
-        flex-grow: 1;
-        list-style-type: none;
+    }
+}
+
+/*Targets screens above 440px*/
+/*Larger devices (laptops and desktops 440px +)*/
+@media screen and (min-width:440px) {
+
+    .l-gallery {
+        height: 15vh;
+    }
+}
+/*Targets screens above 555px*/
+/*Larger devices (laptops and desktops 555px +)*/
+@media screen and (min-width:555px) {
+
+    .l-gallery {
+        height: 25vh;
     }
 }
