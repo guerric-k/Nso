@@ -150,7 +150,7 @@ main {
 #about {
     display: flex;
     flex-direction: column
-  }
+}
 
 /* Targets alignment in main text*/
 .about-history {
@@ -381,7 +381,7 @@ article {
 
     .l-gallery {
         height: 10vh;
-  
+
     }
 }
 
@@ -398,9 +398,9 @@ article {
 /*Larger devices (laptops and desktops 555px +)*/
 @media screen and (min-width:555px) {
 
-.l-gallery {
-    height: 25vh;
-}
+    .l-gallery {
+        height: 25vh;
+    }
 }
 
 /*Targets screens above 820px*/
@@ -410,4 +410,4 @@ article {
     .l-gallery {
         height: 30vh;
     }
-    }
+}

@@ -310,17 +310,20 @@ By forking the repository, we make a copy of the original repository on our GitH
 ### Code
    * Inspiration for favicon drawn from Code Institute's love running project
  * Understanding the concept of flexbox was learned through [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
- * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME) and other inspiration dran from [Lunar-Escape (README.md)](https://github.com/Thomas-Tomo/Lunar-Escape/)
+ * The README template used as guide was provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME) and other inspiration dran from [Lunar-Escape (README.md)](https://github.com/Thomas-Tomo/Lunar-Escape/)
 
 ### Content
 
  * Content was gathered from oral history and collaboration with researcher: Noela Kinyuy Banla (Phd student at the University of Bamenda, Cameroon), Wikipedia,​ Cameroon Intelligence Report,​​ African Books Collective, Flora Travels & Tours (The origin of the Nso dynasty)​, tribal archives delavmfu blog.
 
 ### Media 
-Images were Ethically sourced from tribal photographers and tribal legacy collectors, Nso blogs and my own personal collection.
+* Images were Ethically sourced from tribal photographers and tribal legacy collectors, Nso blogs and my own personal collection.
 
 ---
-
+### Bug fix
+* flex box was used to solve the problem of image overlaping 
+* divs were used as containers to easily mark paragraph limits as there were overlaps
+---
 ## Acknowledgements
  * My sincere thanks to my mentor Mitko Bachvarov provided helpful feedback and a link to the Flexbox guide.
  * Code Institute's tutor support for their swift response to querries
