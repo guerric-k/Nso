@@ -310,7 +310,7 @@ By forking the repository, we make a copy of the original repository on our GitH
 ### Code
    * Inspiration for favicon drawn from Code Institute's love running project
  * Understanding the concept of flexbox was learned through [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
- * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
+ * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME) and other inspiration dran from [Lunar-Escape (README.md)](https://github.com/Thomas-Tomo/Lunar-Escape/)
 
 ### Content
 
