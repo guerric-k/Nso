@@ -110,9 +110,10 @@ main {
 
 }
 
-/* Base styles for icons*/
+/* Base styles for icons and padding gives space between footer*/
 #icons {
     font-family: 'lato', sans-serif;
+    padding-bottom: 15px;
 }
 
 /* .icon-container flexbox structure */
@@ -145,6 +146,11 @@ main {
     border-radius: 50%;
 }
 
+/*Targets Id about*/
+#about {
+    display: flex;
+    flex-direction: column
+  }
 
 /* Targets alignment in main text*/
 .about-history {
